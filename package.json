@@ -1,7 +1,7 @@
 {
-  "name": "routerserver",
+  "name": "ghar-wali-internet",
   "version": "1.0.0",
-  "description": "Socket.IO server with SOCKS5 proxy",
+  "description": "Ghar wali internet phone par - Anywhere in world",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -11,9 +11,7 @@
     "express": "^4.18.2",
     "socket.io": "^4.7.2",
     "cors": "^2.8.5",
-    "axios": "^1.6.2",
-    "socks-proxy-agent": "^8.0.2",
-    "http-proxy-agent": "^7.0.0"
+    "axios": "^1.6.2"
   },
   "engines": {
     "node": "18.x"
