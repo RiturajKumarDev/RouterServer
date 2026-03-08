@@ -1,19 +1,16 @@
 {
-  "name": "ghar-wali-internet",
+  "name": "routerserver",
   "version": "1.0.0",
-  "description": "Ghar wali internet phone par - Anywhere in world",
-  "main": "server.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.18.2",
     "socket.io": "^4.7.2",
     "cors": "^2.8.5",
     "axios": "^1.6.2"
-  },
-  "engines": {
-    "node": "18.x"
   }
 }
