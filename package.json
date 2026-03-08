@@ -1,5 +1,5 @@
 {
-  "name": "cloud-server",
+  "name": "routerserver",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -11,6 +11,6 @@
     "cors": "^2.8.5"
   },
   "engines": {
-    "node": "16.x"  // or 18.x, 20.x - specify your Node version
+    "node": "18.x"
   }
 }
