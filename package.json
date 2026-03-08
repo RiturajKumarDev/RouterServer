@@ -1,16 +1,18 @@
 {
   "name": "routerserver",
   "version": "1.0.0",
-  "engines": {
-    "node": "18.x"
-  },
+  "description": "Ghar Wali Internet Server",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "socket.io": "^4.7.2",
-    "cors": "^2.8.5",
-    "axios": "^1.6.2"
+    "express": "4.18.2",
+    "socket.io": "4.7.2",
+    "cors": "2.8.5",
+    "axios": "1.6.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
